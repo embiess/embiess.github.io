@@ -1,0 +1,17 @@
+---
+title: My Blogs
+layout: page
+---
+
+<ul>
+{% for blog in site.posts %}
+
+    <li>
+        <a href="{{ blog.url }}">
+            {{ blog.date | date: '%B %d, %Y' }} - {{ blog.title }}
+        </a>
+    </li>
+
+
+{% endfor %}
+</ul>
