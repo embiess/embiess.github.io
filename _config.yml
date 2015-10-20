@@ -3,3 +3,13 @@
 
 title: Embiess
 email: mike@embiess.com
+
+# Define Menu Items for Main and Footer menu
+
+menuitems:
+    - url: /
+      title: Home
+    - url: /about
+      title: About
+    - url: /contact
+      title: Contact Us

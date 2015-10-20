@@ -1,5 +1,6 @@
 ---
-title: Embiess
+title: Home Page
+layout: page
 ---
 
 Hi,

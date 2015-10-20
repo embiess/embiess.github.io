@@ -1,0 +1,42 @@
+<footer class="footer container-fluid">
+    <div class="upper row">
+        <div class="container">
+            <div class="col-xs-12 col-sm-5">
+                <h4>
+                    {{ site.title }}
+                </h4>
+                <p>
+                    <a href="mailto:{{ site.email }}">
+                        {{ site.email }}
+                    </a>
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                <h4>
+                    Check out the rest of the site:
+                </h4>
+                <ul class="footer-menu list-unstyled">
+
+                    {% for menuitem in site.menuitems %}
+                        <li class="footer-menu-item">
+                            <a href="{{ menuitem.url }}">
+                                {{ menuitem.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="lower row">
+        <div class="container">
+            <div class="col-xs-6">
+                <i class="glyphicon glyphicon-copyright-mark"></i> 2015 {{ site.title }}.
+            </div>
+            <div class="col-xs-6 text-right">
+                Invest
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,9 +1,7 @@
 ---
 title: Lion Warning
+layout: page
 ---
-
-Lion Warning
-============
 
 Province of Inhambane
 
