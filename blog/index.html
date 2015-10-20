@@ -7,7 +7,7 @@ layout: page
 {% for blog in site.posts %}
 
     <li>
-        <a href="{{ blog.url }}">
+        <a href="{{ blog.dir }}">
             {{ blog.date | date: '%B %d, %Y' }} - {{ blog.title }}
         </a>
     </li>
